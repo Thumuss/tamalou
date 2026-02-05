@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://db31obuhxnhle"]
+
+[ext_resource type="PackedScene" uid="uid://bil885fkfl1v8" path="res://scenes/cards/back_card.tscn" id="1_62ged"]
+[ext_resource type="Texture2D" uid="uid://bsvpmqwosqruh" path="res://assets/cards/blank.png" id="2_3l5fv"]
+
+[node name="Hand" type="Node2D"]
+
+[node name="card1" type="Sprite2D" parent="."]
+z_index = -1
+texture = ExtResource("2_3l5fv")
+
+[node name="BackCard1" parent="card1" instance=ExtResource("1_62ged")]
+
+[node name="card2" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(100, 0)
+texture = ExtResource("2_3l5fv")
+
+[node name="BackCard2" parent="card2" instance=ExtResource("1_62ged")]
+
+[node name="card3" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(200, 0)
+texture = ExtResource("2_3l5fv")
+
+[node name="BackCard3" parent="card3" instance=ExtResource("1_62ged")]
+
+[node name="card4" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(300, 0)
+texture = ExtResource("2_3l5fv")
+
+[node name="BackCard4" parent="card4" instance=ExtResource("1_62ged")]
