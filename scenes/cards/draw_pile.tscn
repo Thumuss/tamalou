@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4ogjgvlqgdwu"]
+
+[ext_resource type="PackedScene" uid="uid://bil885fkfl1v8" path="res://scenes/cards/back_card.tscn" id="1_6uvuy"]
+
+[node name="DrawPile" type="Node2D"]
+
+[node name="BackCard" parent="." instance=ExtResource("1_6uvuy")]
+
+[node name="BackCard2" parent="." instance=ExtResource("1_6uvuy")]
+position = Vector2(0, -5)
+
+[node name="BackCard3" parent="." instance=ExtResource("1_6uvuy")]
+position = Vector2(0, -10)

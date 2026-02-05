@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://ciaqdpjaa163w"]
+
+[ext_resource type="PackedScene" uid="uid://c3idsj77kmk8h" path="res://scenes/auto_scroller.tscn" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://c4ogjgvlqgdwu" path="res://scenes/cards/draw_pile.tscn" id="2_sugp2"]
+[ext_resource type="PackedScene" uid="uid://8xf02i4olgxr" path="res://scenes/cards/discard_pile.tscn" id="3_jyhfs"]
+
+[node name="Main" type="Node2D"]
+
+[node name="AutoScroller" parent="." instance=ExtResource("1_o5qli")]
+
+[node name="DrawPile" parent="." instance=ExtResource("2_sugp2")]
+position = Vector2(398, 364)
+
+[node name="DiscardPile" parent="." instance=ExtResource("3_jyhfs")]
+position = Vector2(504, 358)

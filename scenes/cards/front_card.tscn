@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dykrrkfieqdn8"]
+
+[ext_resource type="Texture2D" uid="uid://bsvpmqwosqruh" path="res://assets/cards/blank.png" id="1_kymuo"]
+
+[node name="FrontCard" type="Node2D"]
+
+[node name="card" type="Sprite2D" parent="."]
+texture = ExtResource("1_kymuo")
